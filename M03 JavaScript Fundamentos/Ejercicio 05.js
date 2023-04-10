@@ -8,10 +8,10 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve False.
    // Tu código:
-   if (numero === 0){
+   if (num === 0){
       return false;
       } 
-          if (numero < 0){
+          if (num < 0){
           return "Es negativo";
           }
             return "Es positivo";
